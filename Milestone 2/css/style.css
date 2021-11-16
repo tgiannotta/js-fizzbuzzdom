@@ -1,0 +1,31 @@
+/* RESET */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #083b4c;
+}
+.container{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+h1{
+    text-align: center;
+    color: white;
+    font-size: 50px;
+    margin: 30px 0px;
+}
+.box{
+    width: 100px;
+    height: 100px;
+    margin: 5px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1389b2;
+}
